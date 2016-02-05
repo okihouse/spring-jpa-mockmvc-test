@@ -1,0 +1,14 @@
+spring: 
+  jpa:
+    database: h2
+    hibernate:
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate.format_sql: true
+    show-sql: true
+
+  h2:
+    console:
+      enabled: true
+      
+logging.level.org.hibernate.SQL: debug
