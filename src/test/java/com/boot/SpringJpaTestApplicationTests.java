@@ -50,7 +50,7 @@ public class SpringJpaTestApplicationTests {
 		// parameter
 		String email = "test@test.com";
 		
-		// request post
+		// request get
 		mockMvc.perform(
 				get("/user/login")
 				.param("email", email)
@@ -77,7 +77,7 @@ public class SpringJpaTestApplicationTests {
 		
 		userRepository.save(user);
 		
-		// request post
+		// request get
 		mockMvc.perform(
 				get("/user/login")
 				.param("email", email)
