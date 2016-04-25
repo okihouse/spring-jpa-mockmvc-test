@@ -7,9 +7,9 @@ Unit test with jpa and mockmvc.
 
 Insert some entity for testing when before unit test.
 
-Rollback everything after when after unit test.
+Rollback everything when after unit test.
 
-It was using every environment with CI. (loacl, stageing, production and jenkins ci)
+It was using every environment with CI. (Local, Stage, Production with Jenkins CI)
 
 
 #### Test with rollback
